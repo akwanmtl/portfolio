@@ -1,13 +1,10 @@
 import React from 'react';
-
+import Header from '../../components/Header';
 function Contact () {
   return(
     <div>
-      <div className="maintitle">
-        <h1>Contact</h1>
-        <hr/>
-      </div>
-    
+      
+      <Header title="Contact"/>
       <div className="row p-3">
           
           <form className="col-xs-12 col-sm-9">

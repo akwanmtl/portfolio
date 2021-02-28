@@ -1,21 +1,23 @@
 import React from 'react';
-import test from '../../assets/burger.jpg';
 import './card.css';
+import "bootstrap/js/src/collapse.js";
+import "bootstrap/js/src/modal.js";
 
-function Card () {
+function Card (props) {
   return(
 
     <div className="card">
-      <img src={test} className="card-img-top"/>
+      <img src={props.img} className="card-img-top"/>
       <div className="card-img-overlay">
         <h2>Project Title</h2>
         <p>
             Technology used
         </p>
-        <button type="button" className="btn btn-primary btn-project" data-toggle="modal" data-target="#modalMatlab">
+        <button type="button" className="btn btn-primary btn-project" data-toggle="modal" data-target={"#"+props.id}>
             Learn more
         </button>
       </div>
+      
     </div>
 
   )

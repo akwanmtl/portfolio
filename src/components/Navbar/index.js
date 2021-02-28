@@ -2,6 +2,7 @@ import React from 'react';
 import './navbar.css';
 import { Link, useLocation } from "react-router-dom"; 
 import "bootstrap/js/src/collapse.js";
+import logo from '../../assets/logo.png'
 
 function Navbar () {
 
@@ -11,9 +12,7 @@ function Navbar () {
   
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="navbar-brand">
-          <Link to="/">
-            Navbar
-          </Link>
+          <img src={logo} alt='Annie Kwan Initial' className='logo'/>
         </div>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

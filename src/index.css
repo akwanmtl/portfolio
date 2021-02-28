@@ -7,7 +7,7 @@ body {
 body:before, body:after {
   content: "";
   position: fixed;
-  background: #032F70;
+  background: #537fbb;
   left: 0;
   right: 0;
   height: 10px;
@@ -22,8 +22,8 @@ body:after {
 }
 body {
   
-  border-left: 10px solid #032F70;
-  border-right: 10px solid #032F70;  
+  border-left: 10px solid #537fbb;
+  border-right: 10px solid #537fbb;  
   background-color: #E7F3F9;
   padding-bottom: 80px;
   box-sizing: border-box;

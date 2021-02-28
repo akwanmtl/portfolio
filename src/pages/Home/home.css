@@ -1,0 +1,18 @@
+.profile-pic {
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 60px;
+  color: #032F70;
+}
+
+.profile-bio {
+  font-size: 24px;
+  text-align: justify;
+  margin-bottom: 15px;
+  color: #032F70;
+}
+
