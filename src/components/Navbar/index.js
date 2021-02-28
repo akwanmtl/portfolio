@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbar.css';
-import { Link, useLocation } from "react-router-dom";
-
+import { Link, useLocation } from "react-router-dom"; 
+import "bootstrap/js/src/collapse.js";
 
 function Navbar () {
 
@@ -9,7 +9,7 @@ function Navbar () {
 
   return (
   
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <div className="navbar-brand">
           <Link to="/">
             Navbar

@@ -1,0 +1,16 @@
+.card-img-overlay {
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  text-align: center;
+}
+
+.btn-project{
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  transform: translateX(-50%);
+}
+.card:hover .card-img-overlay{
+  opacity: 1;
+}

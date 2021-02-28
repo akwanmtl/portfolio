@@ -1,0 +1,30 @@
+html{
+  height:100%;
+}
+body { 
+  min-height: 100%;  
+}
+body:before, body:after {
+  content: "";
+  position: fixed;
+  background: #032F70;
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+body:before {
+  top: 0;
+  box-sizing: border-box;
+}
+body:after {
+  bottom: 0;
+  box-sizing: border-box;
+}
+body {
+  
+  border-left: 10px solid #032F70;
+  border-right: 10px solid #032F70;  
+  background-color: #E7F3F9;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
