@@ -2,7 +2,7 @@
     position: fixed !important;
     bottom: 0  !important;
     left: 50%;
-    width: 90%;
+    width: 94%;
     transform: translateX(-50%);
     height: 150px; /* Fixed height for footer*/
     line-height: 55px; /* Vertically center text accounting for 5px for footerline */

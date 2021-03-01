@@ -7,11 +7,11 @@ function Card (props) {
   return(
 
     <div className="card">
-      <img src={props.img} className="card-img-top"/>
+      <img src={`/images/${props.img}`} className="card-img-top" alt={props.name+" Screenshot"}/>
       <div className="card-img-overlay">
-        <h2>Project Title</h2>
+        <h2>{props.title}</h2>
         <p>
-            Technology used
+            {props.tech}
         </p>
         <button type="button" className="btn btn-primary btn-project" data-toggle="modal" data-target={"#"+props.id}>
             Learn more

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Employee Directory",
+    "image": "employeedirectory.png",
+    "tech": "ReactJS",
+    "description": "The Employee Directory is an application that generates a table of employees that can be sorted by the headings and filtered by name.",
+    "github": "https://github.com/akwanmtl/Employee-Directory-React",
+    "website": "https://akwanmtl.github.io/Employee-Directory-React/"
+
+  },
+  {
+    "name": "Novelty",
+    "image": "novelty.jpg",
+    "tech": "MVC / Sequelize / Handlebars / Node",
+    "description": "Novelty is a book recommendation application helping book lovers track their reading list and find new books to read.",
+    "github": "https://github.com/akwanmtl/NOVELty",
+    "website": "https://novelty.herokuapp.com/"
+
+  },
+  {
+    "name": "Eat-Da-Burger!",
+    "image": "burger.jpg",
+    "tech": "MVC / MySQL / Handlebars / Node",
+    "description": "Eat-Da-Burger! is a fun little application that tracks the burgers to be eaten.",
+    "github": "https://github.com/akwanmtl/Burger",
+    "website": "https://guarded-sierra-90184.herokuapp.com"
+  },
+  {
+    "name": "From Scratch",
+    "image": "fromscratch.png",
+    "tech": "Semantic UI / JS / API",
+    "description": "From Scratch is an online personal recipe box with recipes, nutrition and progress tracking.",
+    "github": "https://github.com/akwanmtl/project-1",
+    "website": "https://akwanmtl.github.io/project-1/"
+  },
+  {
+    "name": "Weather Dashboard",
+    "image": "weatherdashboard.png",
+    "tech": "Bootstrap / JS / JQuery / API",
+    "description": "Weather Dashboard is an application that displays the current weather and 5-day forecast of a city of interest.",
+    "github": "https://github.com/akwanmtl/Weather-Dashboard",
+    "website": "https://akwanmtl.github.io/Weather-Dashboard/"
+  },
+  {
+    "name": "Coding Challeng",
+    "image": "codingchallenge.png",
+    "tech": "Bootstrap / JS",
+    "description": "Weather Dashboard is an online timed quiz about coding and JavaScript with a leader scoreboard.",
+    "github": "https://github.com/akwanmtl/Coding-Quiz-Challenge",
+    "website": "https://akwanmtl.github.io/Coding-Quiz-Challenge/"
+  }
+]

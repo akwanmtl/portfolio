@@ -1,19 +1,21 @@
 import React from 'react';
 import Card from '../../components/Card';
-import test from '../../assets/burger.jpg';
-import test2 from '../../assets/novelty-screenshot.jpg';
 import Modal from '../../components/Modal';
 import Header from '../../components/Header';
+import './projects.css'
+import ProjectList from '../../assets/projects.json';
 
 function Projects () {
   return(
     <div>
       <Header title="Projects"/>
-      <div className="card-group">
-        <Card id="test" img={test}/>
-        <Modal id="test" img={test} title="test"/>
-        <Card id="test2" img={test2}/>
-        <Modal id="test2" img={test2} title="test2"/>
+      <div className="row justify-content-center"> 
+      {ProjectList.map((project) => (
+        <div className="col-md-5 col-lg-4 projectbox" key={project.image.split(".")[0]}>
+          <Card id={project.image.split(".")[0]} img={project.image} title={project.name} tech={project.tech}/>
+          <Modal id={project.image.split(".")[0]} img={project.image} title={project.name} github={project.github} website={project.website} description={project.description} />
+        </div>
+      ))}
       </div>
     </div>
   )
