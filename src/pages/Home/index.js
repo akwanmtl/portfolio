@@ -8,7 +8,7 @@ function Home () {
       <div className='text-center'>
       <h1 className="intro">Hi, I'm Annie Kwan!</h1>
 
-      <img src={profilepic} alt="Annie Kwan" className="profile-pic"></img>
+      <img src={profilepic} alt="Annie Kwan" className="profile-pic img-fluid"></img>
       </div>
       <div className='profile-bio'>
       I'm a full stack web developer with a vast experience in customer support and troubleshooting. Originally from Montréal, I am currently based in Toronto. Currently enrolled in Coding Bootcamp at UofT, I have gained skills in full stack development and highly proficient in Javascript, NodeJS, APIs, Express and MySQL.
