@@ -11,7 +11,7 @@ function Modal (props) {
 
             <div className="modal-body">
             
-        <img src={`/images/${props.img}`}  alt={props.title+" Screenshot"} className="img-fluid col-12 imageModal"/>
+        <img src={`${process.env.PUBLIC_URL}/images/${props.img}`}  alt={props.title+" Screenshot"} className="img-fluid col-12 imageModal"/>
         
           <div className="modalText">
             
