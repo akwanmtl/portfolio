@@ -4,10 +4,13 @@ import Modal from '../../components/Modal';
 import Header from '../../components/Header';
 import './projects.css'
 import ProjectList from '../../assets/projects.json';
+import {Animated} from "react-animated-css";
 
 function Projects () {
   return(
     <div>
+      <Animated animationIn="pulse" isVisible={true}>
+
       <Header title="Projects"/>
       <div className="row justify-content-center"> 
       {ProjectList.map((project) => (
@@ -17,6 +20,7 @@ function Projects () {
         </div>
       ))}
       </div>
+      </Animated>
     </div>
   )
 }

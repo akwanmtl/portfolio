@@ -1,12 +1,13 @@
 import React from 'react';
 import './about.css';
 import Header from '../../components/Header';
-
+import {Animated} from "react-animated-css";
 
 function About () {
   return(
     <div>
-      
+      <Animated animationIn="pulse" animationOut="fadeOut" isVisible={true}>
+    
       <Header title="About Me"/>
       <div className='profile-bio'>
       I'm a full stack web developer with a vast experience in customer support and troubleshooting. Originally from Montréal, I am currently based in Toronto. Currently enrolled in Coding Bootcamp at UofT, I have gained skills in full stack development and highly proficient in Javascript, NodeJS, APIs, Express and MySQL.
@@ -17,6 +18,8 @@ function About () {
       <div className='profile-bio'>
       When you don't find me working, you can find me in the kitchen baking sweet treats or outside enjoying a nice long walk. I also enjoy playing video games, in particular, Smash Bros and I'm always looking for friendly competition.
       </div>
+      
+    </Animated>
     </div>
   )
 }

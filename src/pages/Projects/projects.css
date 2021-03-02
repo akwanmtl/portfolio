@@ -2,3 +2,7 @@
   padding:0px !important;
   max-width: 300px !important;
 }
+
+.animated {
+  animation-fill-mode: backwards !important;
+}
