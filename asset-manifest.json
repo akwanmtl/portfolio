@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8a305cd5.chunk.css",
-    "main.js": "/portfolio/static/js/main.37403b8d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.37403b8d.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
-    "static/css/2.150d169a.chunk.css": "/portfolio/static/css/2.150d169a.chunk.css",
-    "static/js/2.adf51281.chunk.js": "/portfolio/static/js/2.adf51281.chunk.js",
-    "static/js/2.adf51281.chunk.js.map": "/portfolio/static/js/2.adf51281.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/2.150d169a.chunk.css.map": "/portfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.8a305cd5.chunk.css.map": "/portfolio/static/css/main.8a305cd5.chunk.css.map",
-    "static/js/2.adf51281.chunk.js.LICENSE.txt": "/portfolio/static/js/2.adf51281.chunk.js.LICENSE.txt",
-    "static/media/logo.9afb94cd.png": "/portfolio/static/media/logo.9afb94cd.png",
-    "static/media/profilepic.fd26b478.png": "/portfolio/static/media/profilepic.fd26b478.png"
+    "main.css": "/static/css/main.8a305cd5.chunk.css",
+    "main.js": "/static/js/main.29bdb2cc.chunk.js",
+    "main.js.map": "/static/js/main.29bdb2cc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d0605945.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
+    "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
+    "static/js/2.146be6ef.chunk.js": "/static/js/2.146be6ef.chunk.js",
+    "static/js/2.146be6ef.chunk.js.map": "/static/js/2.146be6ef.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.8a305cd5.chunk.css.map": "/static/css/main.8a305cd5.chunk.css.map",
+    "static/js/2.146be6ef.chunk.js.LICENSE.txt": "/static/js/2.146be6ef.chunk.js.LICENSE.txt",
+    "static/media/logo.9afb94cd.png": "/static/media/logo.9afb94cd.png",
+    "static/media/profilepic.fd26b478.png": "/static/media/profilepic.fd26b478.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9f76519.js",
+    "static/js/runtime-main.d0605945.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.adf51281.chunk.js",
+    "static/js/2.146be6ef.chunk.js",
     "static/css/main.8a305cd5.chunk.css",
-    "static/js/main.37403b8d.chunk.js"
+    "static/js/main.29bdb2cc.chunk.js"
   ]
 }
