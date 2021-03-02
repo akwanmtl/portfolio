@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.card {
+  max-width: 300px;
+}
+
 .btn-project{
   position: absolute;
   left: 50%;
@@ -13,4 +17,19 @@
 }
 .card:hover .card-img-overlay{
   opacity: 1;
+}
+
+.card-img-overlay h3 {
+  color: #032F70;
+}
+
+.card-img-overlay p{
+  color: #839fb1;
+}
+
+.card-img-overlay button{
+  border-radius: 0 !important;
+  background-color: #839fb1 !important;
+  color: #E7F3F9  !important;
+  border: none !important;
 }

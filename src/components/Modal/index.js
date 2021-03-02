@@ -21,8 +21,8 @@ function Modal (props) {
                   {props.description}
                 </p>
                 <div className="modalLink">
-                <a href={props.github} className="btn btn-primary" target="_blank" role="button">Github</a>
-                <a href={props.website} className="btn btn-primary" target="_blank" role="button">Website</a>
+                <a href={props.github} className="btn btn-primary" target="_blank"  rel="noopener noreferrer"  role="button">Github</a>
+                <a href={props.website} className="btn btn-primary" target="_blank"  rel="noopener noreferrer" role="button">Website</a>
                 
                 </div>
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close">

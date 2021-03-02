@@ -25,7 +25,13 @@ function Navbar () {
                 Home
               </Link>
             </li>
-            
+
+            <li className="nav-item">
+              <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+                About Me
+              </Link>
+            </li>
+
             <li className="nav-item">
               <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
               Projects

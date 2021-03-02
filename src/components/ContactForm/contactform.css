@@ -5,7 +5,7 @@
 
 .form-control {
   background-color: #839fb1 !important;
-  font-size: 24px !important;
+  font-size: 20px !important;
   border-radius: 0px !important;
 }
 
@@ -13,7 +13,7 @@
 .contact-text {
   text-align: justify;
   color: #032F70;
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
@@ -29,7 +29,7 @@ form {
 
 
 .div-button button {
-  font-size: 24px !important;
+  font-size: 20px !important;
   background-color: #839fb1 !important;
   color: #E7F3F9  !important;
   border: none !important;

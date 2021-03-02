@@ -9,7 +9,7 @@ function Card (props) {
     <div className="card">
       <img src={`/images/${props.img}`} className="card-img-top" alt={props.name+" Screenshot"}/>
       <div className="card-img-overlay">
-        <h2>{props.title}</h2>
+        <h3>{props.title}</h3>
         <p>
             {props.tech}
         </p>

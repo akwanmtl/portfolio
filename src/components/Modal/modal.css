@@ -4,7 +4,9 @@
 
 .modalText {
   padding: 10px !important;
+  color: #032F70;
 }
+
 
 .modalLink {
   text-align: center;
@@ -16,7 +18,9 @@
   background-color: #839fb1 !important;
   color: #E7F3F9  !important;
   border: none !important;
+  margin: 2px;
 }
+
 
 .modalLink a:hover {
   background-color: #576b77 !important;

@@ -7,18 +7,18 @@
     height: 150px; /* Fixed height for footer*/
     line-height: 55px; /* Vertically center text accounting for 5px for footerline */
     text-align: center;
-    background-color: #E7F3F9;
+    background-color: #f7f8fe;
     padding-top: 10px;
 }
 
 .icon a {
-  font-size: 50px;
+  font-size: 40px;
   color: #537fbb;
   margin:10px;
 }
 
 .icon:hover a {
-  font-size: 60px;
+  font-size: 50px;
   color: #537fbb;
 }
 
@@ -30,7 +30,7 @@
 .copyright {
   position: absolute;
   bottom: 10px;
-  font-size: 20px;
+  font-size: 16px;
   left: 50%;
   transform: translateX(-50%);
   color: #032F70;

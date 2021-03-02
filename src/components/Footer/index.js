@@ -12,19 +12,19 @@ function Footer () {
     </div>
       <div className="inline">
         <div className="icon">
-          <a href="https://github.com/akwanmtl" target="_blank">
+          <a href="https://github.com/akwanmtl" target="_blank"  rel="noopener noreferrer" >
           <FontAwesomeIcon icon={faGithubSquare}/>
           </a>
         </div>
         
         <div className="icon">
-          <a href="www.linkedin.com/in/anniekwan1991" target="_blank">
+          <a href="www.linkedin.com/in/anniekwan1991" target="_blank"  rel="noopener noreferrer" >
           <FontAwesomeIcon icon={faLinkedin}/>
           </a>
         </div>
         
         <div className="icon">
-          <a href="mailto:akwan.mtl@gmail.com" target="_blank">
+          <a href="mailto:akwan.mtl@gmail.com" target="_blank"  rel="noopener noreferrer" >
           <FontAwesomeIcon icon={faEnvelopeSquare}/>
           </a>
         </div>
