@@ -1,0 +1,37 @@
+.footer {
+    position: fixed !important;
+    bottom: 0  !important;
+    left: 50%;
+    width: 94%;
+    transform: translateX(-50%);
+    height: 150px; /* Fixed height for footer*/
+    line-height: 55px; /* Vertically center text accounting for 5px for footerline */
+    text-align: center;
+    background-color: #f7f8fe;
+    padding-top: 10px;
+}
+
+.icon a {
+  font-size: 40px;
+  color: #537fbb;
+  margin:10px;
+}
+
+.icon:hover a {
+  font-size: 50px;
+  color: #537fbb;
+}
+
+.inline {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 10px;
+  font-size: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #032F70;
+}

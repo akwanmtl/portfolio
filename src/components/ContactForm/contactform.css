@@ -1,0 +1,37 @@
+.form-group {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.form-control {
+  background-color: #839fb1 !important;
+  font-size: 20px !important;
+  border-radius: 0px !important;
+}
+
+
+.contact-text {
+  text-align: justify;
+  color: #032F70;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+form {
+  padding-left: 0px !important;
+}
+
+.div-button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.div-button button {
+  font-size: 20px !important;
+  background-color: #839fb1 !important;
+  color: #E7F3F9  !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
