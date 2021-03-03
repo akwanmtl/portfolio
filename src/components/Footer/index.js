@@ -28,6 +28,12 @@ function Footer () {
           <FontAwesomeIcon icon={faEnvelopeSquare}/>
           </a>
         </div>
+
+        <div className="icon icon-cv">
+          <a href="https://docs.google.com/document/d/1MiEcZn3aN-DQYndVq2tz4nKPyF9yDeB8itE_QbVqQlA/edit?usp=sharing" target="_blank"  rel="noopener noreferrer" className="cv">
+          CV
+          </a>
+        </div>
       </div>
       
       <div className="copyright">

@@ -10,13 +10,13 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename={`${process.env.PUBLIC_URL}`}>
       <div className="container content">
         <Navbar />
-        <Route exact path="/portfolio" component={Home} />
-        <Route exact path="/portfolio/about" component={About} />
-        <Route exact path="/portfolio/projects" component={Projects} />
-        <Route path="/portfolio/contact" component={Contact} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/contact" component={Contact} />
       <Footer/>
       </div>
       

@@ -35,3 +35,24 @@
   transform: translateX(-50%);
   color: #032F70;
 }
+
+.icon-cv {
+  transform: scale(0.9853,0.93);
+  margin-top: 2px;
+}
+
+.cv{
+  font-weight: bold;
+  border-radius: 4px;
+  background-color:#537fbb;
+  font-size: 20px !important;
+  line-height: 50px;
+  color: #f7f8fe !important;
+  width: 35px;
+  padding: 5px;
+}
+.cv:hover {
+  text-decoration: none;
+  color: #f7f8fe;
+  font-size: 28px !important;
+}
