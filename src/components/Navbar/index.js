@@ -21,25 +21,25 @@ function Navbar () {
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item">
-              <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+              <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                 Home
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/portfolio/about" className={location.pathname === "/portfolio/about" ? "nav-link active" : "nav-link"}>
+              <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
                 About Me
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/portfolio/projects" className={location.pathname === "/portfolio/projects" ? "nav-link active" : "nav-link"}>
+              <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
               Projects
               </Link>
             </li>
             
             <li className="nav-item">
-              <Link to="/portfolio/contact" className={location.pathname === "/portfolio/contact" ? "nav-link active" : "nav-link"}>
+              <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
               Contact
               </Link>
             </li>
