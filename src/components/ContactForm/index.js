@@ -6,7 +6,7 @@ function ContactForm (props) {
     <div className="row p-3">
       <div className="contact-text">
       If you have a question or would like to connect, you can fill the form below.
-      You can message me directly at <span>akwan.mtl@gmail.com</span> or at <span>514-961-3104</span>.
+      You can also message me directly at <span>akwan.mtl@gmail.com</span> or at <span>514-961-3104</span>.
       </div>
       <form className="col-xs-12 col-sm-9" onSubmit={props.submitForm}
       action="https://formspree.io/f/xknplpze"
