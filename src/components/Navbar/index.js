@@ -10,7 +10,7 @@ function Navbar () {
 
   return (
   
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="navbar-brand">
           <img src={logo} alt='Annie Kwan Initial' className='logo'/>
         </div>

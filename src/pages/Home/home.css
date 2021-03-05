@@ -6,14 +6,17 @@
 
 .intro {
   font-size: 40px;
-  color: #032F70;
+  color: #8AC5FC;
+}
+.intro span{
+  color: #E7F3F9;
 }
 
 .home-bio {
   font-size: 30px;
   text-align: center;
   margin-bottom: 15px;
-  color: #032F70;
+  color: #8AC5FC;
 }
 
   

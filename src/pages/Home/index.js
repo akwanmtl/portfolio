@@ -9,7 +9,7 @@ function Home () {
     <Animated animationIn="pulse" animationOut="fadeOut" isVisible={true}>
     
       <div className='text-center'>
-      <h1 className="intro">Hi, I'm Annie Kwan.</h1>
+      <h1 className="intro">Hi, I'm <span>Annie Kwan</span>.</h1>
 
       <img src={profilepic} alt="Annie Kwan" className="profile-pic img-fluid"></img>
       </div>
