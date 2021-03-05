@@ -3,6 +3,10 @@
   font-size: 20px;
   text-align: justify;
   margin-bottom: 15px;
-  color: #032F70;
+  color: #8AC5FC;
   
+}
+
+.profile-bio a {
+  color: #E7F3F9 !important;
 }

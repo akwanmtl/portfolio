@@ -2,9 +2,13 @@
   padding: 0px !important;
 }
 
+.modal-body {
+  background-color: #181A1B;
+}
+
 .modalText {
   padding: 10px !important;
-  color: #032F70;
+  color: #8AC5FC;
 }
 
 

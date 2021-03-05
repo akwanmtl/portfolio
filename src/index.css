@@ -9,7 +9,7 @@ body {
 body:after {
   content: "";
   position: fixed;
-  background: #537fbb;
+  background: #31517D;
   left: 0;
   right: 0;
   height: 10px;
@@ -20,8 +20,8 @@ body:after {
 }
 body {
   
-  border: 10px solid #537fbb;
-  background-color: #f7f8fe;
+  border: 10px solid #31517D;
+  background-color: #383838;
   padding-bottom: 160px;
   box-sizing: border-box;
 }

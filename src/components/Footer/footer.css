@@ -7,19 +7,19 @@
     height: 150px; /* Fixed height for footer*/
     line-height: 55px; /* Vertically center text accounting for 5px for footerline */
     text-align: center;
-    background-color: #f7f8fe;
+    background-color: #383838;
     padding-top: 10px;
 }
 
 .icon a {
   font-size: 40px;
-  color: #537fbb;
+  color: #6294C1;
   margin:10px;
 }
 
 .icon:hover a {
   font-size: 50px;
-  color: #537fbb;
+  color: #6294C1;
 }
 
 .inline {
@@ -33,17 +33,18 @@
   font-size: 16px;
   left: 50%;
   transform: translateX(-50%);
-  color: #032F70;
+  color: #6294C1;
   font-family: sans-serif; 
 }
 
-a img {
+ a img {
   width: 35px;
   height: 35px;
   margin-bottom: 11px;
 }
 
+
 a img:hover {
-  width: 40px;
-  height: 40px;
-}
+  width: 42px;
+  height: 42px; 
+} 

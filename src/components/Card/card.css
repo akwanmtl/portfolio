@@ -1,12 +1,13 @@
 .card-img-overlay {
   opacity: 0;
   transition: .5s ease;
-  background-color: white;
+  background-color: #181A1B;
   text-align: center;
 }
 
 .card {
   max-width: 300px;
+  background-color: #181A1B !important;
 }
 
 .btn-project{
@@ -20,11 +21,11 @@
 }
 
 .card-img-overlay h3 {
-  color: #032F70;
+  color: #8AC5FC;
 }
 
 .card-img-overlay p{
-  color: #839fb1;
+  color: #6294C1;
 }
 
 .card-img-overlay button{

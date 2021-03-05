@@ -12,9 +12,14 @@
 
 .contact-text {
   text-align: justify;
-  color: #032F70;
+  color: #8AC5FC;
   font-size: 20px;
   margin-bottom: 30px;
+}
+
+.contact-text span {
+  color: #E7F3F9;
+  text-decoration: underline dotted;
 }
 
 form {
