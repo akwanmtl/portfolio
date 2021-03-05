@@ -12,7 +12,10 @@ function Navbar () {
   
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="navbar-brand">
-          <img src={logo} alt='Annie Kwan Initial' className='logo'/>
+          
+          <Link to="/">
+           <img src={logo} alt='Annie Kwan Initial' className='logo'/>
+          </Link>
         </div>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
