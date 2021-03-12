@@ -5,7 +5,7 @@ import "bootstrap/js/src/modal.js";
 
 function Card (props) {
   return(
-
+    
     <div className="card">
       <img src={`${process.env.PUBLIC_URL}/images/${props.img}`} className="card-img-top" alt={props.name+" Screenshot"}/>
       <div className="card-img-overlay">
