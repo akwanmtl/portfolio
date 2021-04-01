@@ -19,7 +19,7 @@ function Footer () {
         </div>
         
         <div className="icon">
-          <a href="https://linkedin.com/in/anniekwan1991" target="_blank"  rel="noopener noreferrer" >
+          <a href="https://www.linkedin.com/in/annie--kwan/" target="_blank"  rel="noopener noreferrer" >
           <FontAwesomeIcon icon={faLinkedin}/>
           </a>
         </div>
