@@ -15,11 +15,12 @@
   font-size: 40px;
   color: #6294C1;
   margin:10px;
+  transition: all .2s ease-in-out;
 }
 
 .icon:hover a {
   font-size: 50px;
-  color: #6294C1;
+  color: #E7F3F9;
 }
 
 .inline {
@@ -37,14 +38,7 @@
   font-family: sans-serif; 
 }
 
- a img {
-  width: 35px;
-  height: 35px;
-  margin-bottom: 11px;
+
+.copyright span {
+  color: #E7F3F9;
 }
-
-
-a img:hover {
-  width: 42px;
-  height: 42px; 
-} 

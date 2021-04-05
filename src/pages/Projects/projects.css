@@ -1,6 +1,9 @@
 .projectbox {
   padding:0px !important;
   max-width: 300px !important;
+  border:none !important;
+  border-radius: 0 !important;
+  
 }
 
 .animated {
