@@ -1,14 +1,25 @@
 .card-img-overlay {
   opacity: 0;
   transition: .5s ease;
-  background-color: #181A1B;
+  background-color: #383838;
   text-align: center;
+  border:none !important;
+  border-radius: 0 !important;
 }
 
 .card {
   max-width: 300px;
-  background-color: #181A1B !important;
+  background-color: #383838 !important;
+  border:none !important;
+  border-radius: 0 !important;
 }
+
+.card img {
+
+  border:none !important;
+  border-radius: 0 !important;
+}
+
 
 .btn-project{
   position: absolute;
